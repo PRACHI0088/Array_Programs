@@ -39,8 +39,6 @@ cout<<"alternatively swapped array is:"<<endl;
     	{ swap(a[i],a[i+1]); 
 		 }
 	}
-	  //printarray(a,n);
-
  }
 
 
