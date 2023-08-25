@@ -1,4 +1,4 @@
-//finding duplicate elements in a SORTED ARRAY and Counting their no. of duplicates.
+//finding duplicate elements in a SORTED ARRAY and Counting their no. of occurrence.
 #include<iostream>
 using namespace std;
 int main()
