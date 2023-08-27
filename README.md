@@ -1,2 +1,1 @@
-# reverse_array
-Reversing array using function
+This repository contains all the Array problems. 
