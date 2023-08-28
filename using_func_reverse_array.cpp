@@ -24,8 +24,8 @@ using namespace std;
  {  
        	  swap(a[s],a[e]);  //INBULIT FUNCTION: to swap two array elements
 	   	  s++;
-       	  e--;
-		}	
+        	  e--;
+ }	
  }
  	
  
@@ -33,10 +33,10 @@ using namespace std;
  {
  	 int n,a[10];
    
-   cout<<"enter n, number of array elements:"<<endl;
-   cin>>n;
-   cout<<"now enter the array elements:"<<endl;
-   inputarray(a,n);
+    cout<<"enter n, number of array elements:"<<endl;
+    cin>>n;
+    cout<<"now enter the array elements:"<<endl;
+    inputarray(a,n);
     cout<<"the reversed array is:"<<endl;
     revarray(a,n);
     
@@ -44,19 +44,6 @@ using namespace std;
    
    return 0;
 }
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
    
    
    
