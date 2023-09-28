@@ -1,3 +1,4 @@
+// Finding sum of all array elements using function.
 #include<iostream>
 using namespace std;
  int func(int a[],int n);
