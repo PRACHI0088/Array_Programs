@@ -1,3 +1,4 @@
+//To swap the alternate array elements.
 #include<iostream>
 using namespace std;
 
@@ -27,10 +28,10 @@ void inputarray(int a[],int n)
    cin>>n;
    cout<<"now enter the array elements:"<<endl;
    inputarray(a,n);
-cout<<"alternatively swapped array is:"<<endl;
-  altswap(a,n);
-  printarray(a,n);
-  return 0;
+   cout<<"alternatively swapped array is:"<<endl;
+   altswap(a,n);
+   printarray(a,n);
+   return 0;
 }
 
  void altswap(int a[],int n)
@@ -39,6 +40,8 @@ cout<<"alternatively swapped array is:"<<endl;
     	{ swap(a[i],a[i+1]); 
 		 }
 	}
+
+
  }
 
 
